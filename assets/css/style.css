@@ -5948,14 +5948,15 @@ ul {
     text-align: right; }
   .services__item__image {
     position: relative;
-    height: 540px;
+    height: 500px;
     width: 100%; }
     @media only screen and (max-width: 768px) {
       .services__item__image {
-        margin-bottom: 3.57143em; } }
+        height: 200px;
+        margin-bottom: 0em; } }
     .services__item__image__background {
       position: absolute;
-      top: 0;
+      top: -140px;
       left: -7.5em; }
       .services__item__image__background img {
         height: 100%;

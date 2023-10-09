@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+
+.flex-row {
+display: flex;
+}
+
+.flex-cell {
+flex: 1;
+padding: 1rem;
+/* border: 1px solid black; */
+box-sizing: border-box;
+text-align: center;
+font-weight: 500;
+align-self: center;
+}
+
+.priceTable h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-container .bg{
+    background-color: rgba(255, 196, 239,0.3);
+}
+
+.flex-container h5{
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.priceTable{
+
+}
+@media only screen and (max-width: 768px) {
+    .flex-cell{
+        font-size: 0.7rem;
+        padding:1rem 0.5rem;
+    }
+}

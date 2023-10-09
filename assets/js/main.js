@@ -535,7 +535,7 @@ const renderProduct = (type) => {
 };
 
 const toggleProductView = () => {
-  let view = "grid";
+  let view = "list";
   renderProduct(view);
   $(".shop-header__view__icon > a:first-child").on("click", function (e) {
     e.preventDefault();
