@@ -11,17 +11,19 @@ display: flex;
 
 .flex-cell {
 flex: 1;
-padding: 1rem;
+
 /* border: 1px solid black; */
 box-sizing: border-box;
 text-align: center;
 font-weight: 500;
 align-self: center;
+    font-size: 0.7rem;
+    padding:1rem 0.5rem;
 }
 
 .priceTable h4{
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .flex-container .bg{
@@ -33,12 +35,30 @@ align-self: center;
     font-weight: 300;
 }
 
-.priceTable{
 
+
+
+.priceBox{
+    display: flex;
+    flex-wrap: nowrap;
 }
-@media only screen and (max-width: 768px) {
+
+.cautionImg img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+@media only screen and (max-width: 992px) {
     .flex-cell{
-        font-size: 0.7rem;
-        padding:1rem 0.5rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .priceBox{
+        flex-wrap: wrap;
+    }
+    .cautionImg img{
+        width: 94%;
     }
 }
+
+

@@ -3329,9 +3329,10 @@ ul {
     .menu {
       font-size: 14px; } }
   .menu-logo img {
-    height: 2.5em;
-    width: 7.1875em;
-    object-fit: cover; }
+    height: 3em;
+    width: 6.25em;
+    margin: -0.9375em 0;
+    object-fit: contain; }
   .menu-functions {
     display: none;
     align-items: center; }
@@ -3627,9 +3628,11 @@ ul {
     background-color: #111;
     padding: 0.9375em 0; }
     .menu.-style-3 .menu-logo img {
-      height: 1.875em;
+      height: 3em;
       width: 6.25em;
-      object-fit: contain; }
+      object-fit: contain;
+      
+     }
     .menu.-style-3 .menu__wrapper .navigator > ul > li > a {
       line-height: 2em; }
   .menu.-style-4 {
