@@ -72,6 +72,7 @@ align-self: center;
 .BA_caption{
     text-align: center;
     margin: 1rem 0;
+    height: 6px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -88,6 +89,10 @@ align-self: center;
     .priceBox img{
         width: 100%;
     }
+    .introduction-one-image__detail img:last-child {
+        bottom:-23%;
+    }
+
 }
 
 
