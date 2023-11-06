@@ -42,12 +42,38 @@ align-self: center;
     display: flex;
     flex-wrap: nowrap;
 }
+.priceBox img{
+    width: 70%;
+    margin: auto;
+}
 
 .cautionImg img{
     width: 60%;
     margin: 0 auto;
     display: block;
 }
+
+
+#introductionImage{
+    top:15%;
+    left:15%;
+    max-width: 75%;
+}
+
+.BA_Box{
+    width: 80%;
+    margin: auto;
+
+}
+
+.BA_Image{
+    width: 49%;
+}
+.BA_caption{
+    text-align: center;
+    margin: 1rem 0;
+}
+
 @media only screen and (max-width: 992px) {
     .flex-cell{
         font-size: 1rem;
@@ -58,6 +84,9 @@ align-self: center;
     }
     .cautionImg img{
         width: 94%;
+    }
+    .priceBox img{
+        width: 100%;
     }
 }
 
