@@ -90,7 +90,7 @@ align-self: center;
         width: 100%;
     }
     .introduction-one-image__detail img:last-child {
-        bottom:-23%;
+        /* bottom:-23%; */
     }
 
 }
